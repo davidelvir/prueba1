@@ -71,7 +71,7 @@ int menu(){
 
 }
 int factorial(int x){
-
+    //prueba de github
 	if(x == 1){
 		return 1;
 	}else{
