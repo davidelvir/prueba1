@@ -12,13 +12,14 @@ int main(){
   bool salir = false;
   while(!salir){
 	switch( menu() ){
-		case 1:{//si creo variables aqui uso llaves
-			int num1,num2;
-			cout<<"Escriba un numero: ";
-			cin>>num1;
-			cout<<"Escriba un numero: ";
-			cin>>num2;
-			cout<<"El resultado es: "<<num1*num2<<endl;
+	    case 1:{//si creo variables aqui uso llaves
+		    int num1,num2;
+		    cout<<"Escriba un numero: ";
+		    cin>>num1;
+            cout<<"Escriba un numero: ";
+		    cin>>num2;
+		    cout<<"El resultado es: "<<num1*num2<<endl;
+
 
 			break;
 		}
@@ -30,6 +31,7 @@ int main(){
 			cout<<"Ingrese un numero: ";
 			cin>>num2;
 			cout<<"El resultado es: "<<num1+num2<<endl;
+                    
 			
 			break;
 		}
@@ -37,7 +39,7 @@ int main(){
 			int num;
 			cout<<"Ingrese un numero: ";	
 			cin>>num;
-			cout<<"El factorial es: "<<factorial(num)<<endl;
+			cout<<"El factorial de "<<num <<"es: "<<factorial(num)<<endl;
 			break;
 		}
 		case 4:
